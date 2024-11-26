@@ -17,5 +17,24 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.thin-scrollbar {
+  -ms-overflow-style: #ffffff66;
+  scrollbar-width: 0;
+}
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+.thin-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #ffffff66;
+  border-radius: 7px;
+  background-clip: content-box;
 }
