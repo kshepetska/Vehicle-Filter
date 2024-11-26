@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Loader from "./Loader";
 import { fetchVehicleModels } from "../service";
+import { VehicleModel } from "../types";
 
 const fetchModels = async (makeId: string, year: string) => {
   const vehicleModels = await fetchVehicleModels(makeId, year);

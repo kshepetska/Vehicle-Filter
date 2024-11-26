@@ -1,14 +1,14 @@
-interface VehicleMake {
+export interface VehicleMake {
   MakeId: string;
   MakeName: string;
 }
 
-interface DropdownOption {
+export interface DropdownOption {
   value: string;
   label: string;
 }
 
-interface VehicleModel {
+export interface VehicleModel {
   Model_Name: string;
   Model_ID: string;
 }

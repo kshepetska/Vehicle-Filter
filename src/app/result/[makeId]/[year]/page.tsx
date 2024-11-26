@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect, Suspense } from "react";
-import { fetchVehicleModels } from "@/app/service";
 import { MainLayout } from "@/app/components/MainLayout";
 import PrevButton from "@/app/components/PrevButton";
 import Loader from "@/app/components/Loader";

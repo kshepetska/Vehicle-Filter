@@ -1,4 +1,5 @@
 import axios from "axios";
+import { VehicleMake, VehicleModel } from "../types";
 
 export const fetchVehicleMakes = async (): Promise<VehicleMake[]> => {
   try {

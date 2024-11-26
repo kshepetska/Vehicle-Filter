@@ -5,6 +5,7 @@ import Dropdown from "./components/Dropdown";
 import NextButton from "./components/NextButton";
 import { MainLayout } from "./components/MainLayout";
 import Loader from "./components/Loader";
+import { VehicleMake, DropdownOption } from "./types";
 
 const HomePage: React.FC = () => {
   const [selectedMake, setSelectedMake] = useState<string | null>(null);
