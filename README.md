@@ -58,17 +58,17 @@ Using npm:
 Or using yarn:
 
 ```bash
-yarn dev
+   yarn dev
 ```
 
 The app will be available at http://localhost:3000.
 
 ## Usage
 
-- **Home Page**
+### **Home Page**
 - Select a vehicle make from the dropdown.
 - Choose a model year from the year dropdown.
 - Click the Next button to navigate to the results page.
-- **Results Page**
+### **Results Page**
 - Watch a list of vehicle models based on the selected make and year.
 - Click the Back button to navigate to the previous page.
